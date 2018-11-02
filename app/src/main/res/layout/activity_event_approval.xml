@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.mobilemarcom.event.EventApprovalActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/eventApprovalToolBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_weight="1"
+                    android:textSize="14sp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Code"/>
+                <TextView
+                    android:id="@+id/eventApprovalTextCode"
+                    android:layout_weight="3"
+                    android:textSize="14sp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text=": code"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:textSize="14sp"
+                    android:layout_height="wrap_content"
+                    android:text="Name"/>
+                <TextView
+                    android:layout_weight="3"
+                    android:layout_width="0dp"
+                    android:textSize="14sp"
+                    android:layout_height="wrap_content"
+                    android:text=": name"
+                    android:id="@+id/eventApprovalTextName"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:textSize="14sp"
+                    android:layout_height="wrap_content"
+                    android:text="Place"/>
+                <TextView
+                    android:id="@+id/eventApprovalTextPlace"
+                    android:layout_weight="3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:text=": place"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:textSize="14sp"
+                    android:layout_height="wrap_content"
+                    android:text="Start Date"/>
+                <TextView
+                    android:layout_weight="3"
+                    android:layout_width="0dp"
+                    android:textSize="14sp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/eventApprovalTextStartDate"
+                    android:text=": startDate"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:textSize="14sp"
+                    android:layout_height="wrap_content"
+                    android:text="End Date"/>
+                <TextView
+                    android:layout_weight="3"
+                    android:layout_width="0dp"
+                    android:textSize="14sp"
+                    android:id="@+id/eventApprovalTextEndDate"
+                    android:layout_height="wrap_content"
+                    android:text=": endDate"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:textSize="14sp"
+                    android:layout_height="wrap_content"
+                    android:text="Budget (Rp.)"/>
+                <TextView
+                    android:layout_weight="3"
+                    android:layout_width="0dp"
+                    android:textSize="14sp"
+                    android:id="@+id/eventApprovalTextBudget"
+                    android:layout_height="wrap_content"
+                    android:text=": budget"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_weight="1"
+                    android:textSize="14sp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Notes"/>
+                <TextView
+                    android:layout_weight="3"
+                    android:textSize="14sp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/eventApprovalTextNotes"
+                    android:text=": notes"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_weight="1"
+                    android:textSize="14sp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Requested By"/>
+                <TextView
+                    android:id="@+id/eventApprovalTextRequestedBy"
+                    android:layout_weight="3"
+                    android:textSize="14sp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text=": requestedBy"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_weight="1"
+                    android:textSize="14sp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Request Date "/>
+                <TextView
+                    android:layout_weight="3"
+                    android:textSize="14sp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/eventApprovalTextRequestDate"
+                    android:text=": requestDate"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Status"
+                    android:textSize="14sp"/>
+                <TextView
+                    android:id="@+id/eventApprovalTextStatus"
+                    android:layout_weight="3"
+                    android:textSize="14sp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text=": status"/>
+            </LinearLayout>
+
+            <AutoCompleteTextView
+                android:id="@+id/eventApprovalAssignTo"
+                android:hint="Assign to"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_gravity="end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/eventApprovalButtonApprove"
+                    android:text="Approve"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/eventApprovalButtonReject"
+                    android:text="Reject"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/eventApprovalButtonCancel"
+                    android:text="Cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

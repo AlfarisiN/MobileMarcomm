@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.mobilemarcom">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/braces_brand_logo_new"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/braces_brand_logo_new"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".LoginActivity" />
+        <activity
+            android:name=".user.EditUserActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".user.TambahUserActivity" />
+        <activity android:name=".souvenirRequest.RequestApprovalActivity" />
+        <activity android:name=".souvenirRequest.SouvenirRequestActivity" />
+        <activity android:name=".souvenirRequest.SouvenirReqAddItemActivity"></activity>
+        <activity android:name=".souvenirRequest.AddSouvenirReq" />
+        <activity android:name=".souvenirRequest.AddItemReqSouv" />
+        <activity android:name=".souvenirRequest.RejectRequestActivity" />
+        <activity android:name=".souvenirRequest.RequestCloseActivity" />
+        <activity android:name=".souvenir_request.SouvenirRequestActivity" />
+        <activity android:name=".souvenir_request.RequestApprovalActivity" />
+        <activity android:name=".souvenir_request.RejectRequestActivity" />
+        <activity android:name=".souvenir_request.RequestCloseActivity" />
+        <activity android:name=".souvenir.SouvenirFragment" />
+        <activity android:name=".t_souvenir.SouvenirStokFragment" />
+        <activity android:name=".souvenir.SouvenirDaftarActivity" />
+        <activity android:name=".t_souvenir.SouvenirStokAddItemActivity" />
+        <activity android:name=".souvenir.EditSouvenirActivity" />
+        <activity android:name=".t_souvenir.SouvenirStokActivity" />
+        <activity android:name=".event.EventRequestActivity" />
+        <activity android:name=".event.EventApprovalActivity" />
+        <activity android:name=".event.CloseEventActivity" />
+        <activity android:name=".employee.EditEmployeeActivity" />
+        <activity android:name=".employee.AddEmployee" />
+        <activity android:name=".ListTest" />
+        <activity android:name=".AddTest" />
+        <activity android:name=".FormView"></activity>
+    </application>
+
+</manifest>

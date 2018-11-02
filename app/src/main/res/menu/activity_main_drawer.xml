@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawerEmployee"
+            android:icon="@drawable/ic_employee"
+            android:title="Employee" />
+        <item
+            android:id="@+id/drawerUser"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="User" />
+        <item
+            android:id="@+id/drawerSouvenir"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Souvenir" />
+        <item
+            android:id="@+id/drawerEventRequest"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Event Request" />
+        <item
+            android:id="@+id/drawerSouvenirStock"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Souvenir Stock" />
+        <item
+            android:id="@+id/drawerSouvenirRequest"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Souvenir Request" />
+        <item
+            android:id="@+id/unit"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Unit" />
+        <!--<item-->
+            <!--android:id="@+id/list"-->
+            <!--android:icon="@drawable/ic_menu_manage"-->
+            <!--android:title="List" />-->
+
+    </group>
+
+</menu>

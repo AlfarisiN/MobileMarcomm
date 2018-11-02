@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".souvenir_request.SouvenirRequestActivity">
+
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <SearchView
+            android:id="@+id/search_souvenirRequest"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Search by name" />
+
+        <Button
+            android:id="@+id/btn_add_souvenirRequest"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="+"
+            android:textColor="@color/colorWhite" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textColor="@color/colorWhite"
+            android:layout_width="80dp"
+            android:layout_height="35dp"
+            android:text="CODE"
+            android:textAlignment="center" />
+
+        <TextView
+            android:textColor="@color/colorWhite"
+            android:layout_width="80dp"
+            android:layout_height="35dp"
+            android:text="REQUEST DATE"
+            android:textAlignment="center" />
+
+        <TextView
+            android:textColor="@color/colorWhite"
+            android:layout_width="80dp"
+            android:layout_height="35dp"
+            android:text="REQUEST BY"
+            android:textAlignment="center" />
+
+        <TextView
+            android:textColor="@color/colorWhite"
+            android:layout_width="80dp"
+            android:layout_height="35dp"
+            android:text="STATUS"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_souvenirRequest"
+        android:layout_width="350dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+</LinearLayout>
